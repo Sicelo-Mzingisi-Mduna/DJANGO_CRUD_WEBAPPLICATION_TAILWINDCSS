@@ -115,3 +115,4 @@ source-map.js/
 # Still ignore node_modules folders inside theme/static_src
 /crm/theme/static_src/node_modules/
 /crm/theme/static_src/node_modules/slash
+*.code-workspace
