@@ -116,3 +116,4 @@ source-map.js/
 /crm/theme/static_src/node_modules/
 /crm/theme/static_src/node_modules/slash
 *.code-workspace
+*.docx
