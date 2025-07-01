@@ -1,0 +1,29 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    {% comment %} Add my styling links {% endcomment %}
+    {% tailwind_css %}
+  
+  </head>
+  <body>
+    <!-- Create NavBar Here -->
+
+
+     <div class = "container">
+
+        <br>
+
+        <!-- Notification Messages-->
+          {% block content%}
+
+          {% endblock %}
+     </div>
+
+     {% comment %} Add my javascript here {% endcomment %}
+  </body>
+</html>
