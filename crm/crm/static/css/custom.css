@@ -1,0 +1,22 @@
+
+  /* Style the button using only the custom CSS tokens */
+  .custom-button {
+    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+    font-size: var(--button-font-size);
+    font-weight: var(--button-font-weight);
+    border-radius: var(--button-border-radius);
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    border: var(--border-size-1) solid var(--button-border-color);
+    cursor: pointer;
+    transition: var(--button-transition);
+  }
+  .custom-button:hover {
+    background-color: var(--button-background-hover);
+    color: var(--button-text-color-hover);
+    border-color: var(--button-border-color-hover);
+  }
+  .custom-button:focus {
+    outline: none;
+    box-shadow: var(--button-box-shadow-focus);
+  }

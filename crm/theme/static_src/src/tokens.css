@@ -1,5 +1,6 @@
 @layer base {
   :root {
+    /* Existing tokens */
     --gap-xs: 0.5rem;
     --size-2: 0.5rem;
     --size-3: 0.75rem;
@@ -12,5 +13,20 @@
     --foreground-border: rgba(33, 37, 41, 1);
     --border-size-1: 1px;
     --focus-color: #0070f3;
+
+    /* New tokens for buttons */
+    --button-padding-vertical: 0.5rem;
+    --button-padding-horizontal: 1rem;
+    --button-font-size: var(--font-size-1);
+    --button-font-weight: 600;
+    --button-border-radius: 0.375rem; /* 6px */
+    --button-background: var(--background-primary);
+    --button-background-hover: var(--focus-color);
+    --button-text-color: var(--foreground-border);
+    --button-text-color-hover: #ffffff;
+    --button-border-color: var(--foreground-border);
+    --button-border-color-hover: var(--focus-color);
+    --button-transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    --button-box-shadow-focus: 0 0 0 3px rgba(0, 112, 243, 0.4);
   }
 }
