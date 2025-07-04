@@ -1,0 +1,16 @@
+@layer base {
+  :root {
+    --gap-xs: 0.5rem;
+    --size-2: 0.5rem;
+    --size-3: 0.75rem;
+    --size-4: 1rem;
+    --font-size-1: 1rem;
+    --background-primary: #ffffff;
+    --background-secondary: #f5f5f5;
+    --background-accent: rgba(241, 243, 245, 1);
+    --background-card: #f9f9f9;
+    --foreground-border: rgba(33, 37, 41, 1);
+    --border-size-1: 1px;
+    --focus-color: #0070f3;
+  }
+}
