@@ -1,0 +1,14 @@
+@layer base {
+  :root {
+    /* Defaults */
+    --size-2: 0.5rem;
+    --size-3: 0.75rem;
+    --size-4: 1rem;
+
+    /* Actual */
+
+    --font-size-1: 1rem;
+    --gap-s: 0.5rem;
+    --gap-xs: 0.5rem;
+  }
+}

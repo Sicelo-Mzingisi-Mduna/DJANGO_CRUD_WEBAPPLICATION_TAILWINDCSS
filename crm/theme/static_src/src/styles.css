@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import './tokens.css';
+@import "./Hero_Banner_Tokens.css";
 
 /**
   * A catch-all path to Django template files, JavaScript, and Python files
