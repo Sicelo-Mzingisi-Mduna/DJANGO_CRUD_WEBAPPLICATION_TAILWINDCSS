@@ -1,16 +1,37 @@
 {% extends "webapp/base.html" %}
 
-{% block content%}
+{% block content %}
 
-<div class = "text-center">
-  <body class="bg-gray-50 font-serif leading-normal tracking-normal">
-		<div class="container mx-auto">
-			<section class="flex items-center justify-center h-screen">
-				<h1 class="text-5xl">Django + Tailwind = ❤️</h1>
-			</section>
-		</div>
-	</body>
-</div>
+<style>
+  .Body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    border-width: 1px;
+    box-sizing: border-box;
+    margin: 0;
+  }
+</style>
 
+<body class="w-element">
+  <div class="w-box">
+    <main class="Body">
+      <section class="Hero_banner/03">
+        <div class="Container">
+          <div class="Content wrapper">
+            <div class="Text wrapper"></div>
+							<div class="Small eyebrow"></div>
+            <div class="Button Group"></div>
+            <div class="Screen"></div>
+          </div>
+        </div>
+      </section>
+      <section class="Partner section/3"></section>
+      <section class="Value section/1"></section>
+      <section class="Testimonial section/4"></section>
+      <section class="Trial banner/2"></section>
+      <section class="Solution section/1"></section>
+    </main>
+  </div>
+</body>
 
 {% endblock %}
