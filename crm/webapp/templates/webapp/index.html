@@ -1,15 +1,128 @@
 {% extends "webapp/base.html" %}
 
 {% block content%}
+<style>
+	* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+:root {
+	--gjs-t-color-primary: #cf549e;
+	--gjs-t-color-secondary: #b9227d;
+	--gjs-t-color-accent: #ffb347;
+	--gjs-t-color-success: #28a745;
+	--gjs-t-color-warning: #ffc107;
+	--gjs-t-color-error: #dc3545;
+}
+
+body {
+	background-color: #e7e7e7;
+	font-family: system-ui, sans-serif;
+}
+
+.gjs-t-body {
+	background-color: inherit;
+	color: inherit;
+	font-size: 1rem;
+	line-height: 1.75rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.gjs-t-h1 {
+	color: var(--gjs-t-color-secondary);
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+}
+
+.gjs-t-h2 {
+	color: #601843;
+	font-size: 1.2rem;
+	line-height: 1.75rem;
+}
+
+.gjs-t-button {
+	background-color: var(--gjs-t-color-primary);
+	color: white;
+	border-radius: 0.3rem;
+}
+
+.gjs-t-link {
+	color: var(--gjs-t-color-primary);
+	text-decoration: underline;
+}
+
+.gjs-t-border {
+	border-radius: 0.3rem;
+	border-color: #e0e0e0;
+}
+
+#iljr {
+	padding-top: 0.016px;
+	padding-right: 0px;
+	padding-bottom: 406px;
+	padding-left: 0px;
+}
+
+.gjs-plg-flex-column {
+	flex-grow: 1;
+}
+
+.gjs-plg-flex-row {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: nowrap;
+}
+
+#iu75w {
+	width: 100%;
+	height: 482px;
+}
+
+#i669d {
+	flex-basis: 100%;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#iux8l {
+	padding: 10px;
+}
+
+#ilb4u {
+	text-align: center;
+}
+
+#itac4 {
+	background-color: rgb(224, 62, 45);
+}
+
+#ij46w {
+	color: black;
+	width: 387px;
+	height: 232px;
+}
+</style>
 
 <div class = "text-center">
-  <body class="bg-gray-50 font-serif leading-normal tracking-normal">
-		<div class="container mx-auto">
-			<section class="flex items-center justify-center h-screen">
-				<h1 class="text-5xl">Django + Tailwind = ❤️</h1>
-			</section>
-		</div>
-	</body>
+  <body id="iljr" class="gjs-t-body">
+  <div data-type-role="flex-row" id="iu75w" class="gjs-plg-flex-row">
+    <div data-type-role="flex-column" id="i669d" class="gjs-plg-flex-column">
+      <div id="iux8l">
+        <div id="ilb4u"><span id="itac4"><strong id="ifseo">Hello Welcome</strong></span></div>
+      </div><img id="ij46w" src="https://picsum.photos/seed/demo-3/500/300"/>
+    </div>
+  </div>
+</body>
 </div>
 
 
